@@ -1,6 +1,0 @@
-Write a Playbook to Create a Weekly YUM Update Job in Cron
-
- - cron:
-     name: "Weekly YUM Update"
-     special_time: weekly
-     job: "/usr/bin/yum update -y"
